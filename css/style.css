@@ -31,7 +31,120 @@ body {
 	height: 100%;
 	line-height: 1;
 	background-color: #fff;
+	font-family: 'Asap', sans-serif;
 	font-size: 16px;
+	font-style: normal;
+	color: #000;
+}
+.wrapper {
+min-height: 100%;
+display: flex;
+flex-direction: column;
+overflow: hidden;
+}
+
+._container {
+	max-width: 1170px;
+	margin: 0px auto;
+	padding: 0px 15px;
+	box-sizing: content-box;
+}
+
+._ibg {
+	position: relative;
+}
+
+._ibg img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	object-fit: cover;;
+}
+
+.header__page {
+	background-color: #0E77AF;
+}
+
+.header__container {
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__icons {
+	height: 16px;
+}
+
+.header__icon:not(:last-child) {
+	margin-right: 21px;
+}
+
+@media (max-width: 425px) {
+	.header__icon:not(:last-child) {
+		margin-right: 10px;
+	}
+}
+
+.header__email {
+	font-size: 12px;
+	line-height: 116%;
+	color: #fff;
+}
+
+.navigation__container {
+	display: flex;
+}
+
+.navigation__logo {
+	margin: 20px 191px 24px 0px;
+}
+
+.navigation__menu {
+	display: flex;
+	margin: 52px 58px 51px 0px;
+}
+
+.menu__item:not(:last-child) {
+	margin: 0px 20.22px 0px 0px;
+}
+
+.menu__link {
+	font-size: 14px;
+	line-height: 114%;
 	color: #000;
 }
 
+.menu__link--active {
+	font-weight: 700;
+}
+.navigation__phone {
+	display: flex;
+	margin: 40px 0px 44px 0px;
+}
+
+.navigation__phone-image {
+margin-right: 12px;
+}
+
+.navigation__phone-content {
+	display: flex;
+	flex-direction: column;
+}
+
+.phone-content__text {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 114%;
+	color: #7D7D7D;
+	margin-bottom: 1px;
+}
+
+.phone-content__phone {
+	font-weight: 400;
+font-size: 16px;
+line-height: 112%;
+color: #000;
+}
