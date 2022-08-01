@@ -673,6 +673,18 @@ margin: 0px 12px 0px 0px;
 	margin: 0px 0px 130px 0px;
 }
 
+@media (max-width: 1024px) {
+	.benefits__page {
+		margin: 0px 0px 90px 0px;
+	}
+}
+
+@media (max-width: 768px) {
+	.benefits__page {
+		margin: 0px 0px 70px 0px;
+	}
+}
+
 .benefits__row {
 	display: flex;
 	flex-wrap: wrap;
@@ -888,13 +900,43 @@ margin: 0px 12px 0px 0px;
 	margin: 0px 0px 161px 0px;
 }
 
+@media (max-width: 1024px) {
+	.services {
+		margin: 0px 0px 100px 0px;
+	}
+}
+
+@media (max-width: 768px) {
+	.services {
+		margin: 0px 0px 80px 0px;
+	}
+}
+
+@media (max-width: 425px) {
+	.services {
+		margin: 0px 0px 50px 0px;
+	}
+}
+
 .services__columns {
 	display: flex;
+}
+
+@media (max-width: 768px) {
+	.services__columns {
+		flex-wrap: wrap;
+	}
 }
 
 .columns__services {
 	max-width: 592px;
 	margin: 0px 102px 0px 0px;
+}
+
+@media (max-width: 425px) {
+	.columns__services {
+		margin: 0px 0px 20px 0px;
+	}
 }
 
 .columns__services-title {
@@ -932,8 +974,21 @@ margin: 0px 12px 0px 0px;
 	margin: 0px 0px 42px 0px;
 }
 
+@media (max-width: 320px) {
+	.columns__services-item-block {
+		flex-direction: column;
+	}
+}
+
 .columns__services-item-image {
 	margin: 0px 20px 0px 0px;
+}
+
+@media (max-width: 320px) {
+	.columns__services-item-image {
+		margin: 0px 0px 15px 0px;
+		text-align: center;
+	}
 }
 
 .columns__services-item-descr {
@@ -947,11 +1002,21 @@ margin: 0px 12px 0px 0px;
 	margin: 12px 0px 1px 0px;
 }
 
+@media (max-width: 425px) {
+	.columns__services-item-text {
+		margin: 0px 0px 1px 0px;
+	}
+}
+
 .columns__services-item-link a {
 	font-weight: 700;
 	font-size: 12px;
 	line-height: 241%;
 	color: #7D7D7D;
+}
+
+.columns__security {
+	max-width: 100%;
 }
 
 .columns__security-title {
@@ -970,6 +1035,10 @@ margin: 0px 12px 0px 0px;
 
 .columns__security-image {
 	margin: 0px 0px 58px 0px;
+}
+
+.columns__security-image img {
+	max-width: 100%;
 }
 
 .columns__security-text {
@@ -995,3 +1064,134 @@ margin: 0px 12px 0px 0px;
 	padding: 6px 6px 6px 10px;
 }
 
+.testimonials__page {
+	background-color: #0E77AF;
+	padding: 148px 0px;
+}
+
+@media (max-width: 768px) {
+	.testimonials__page {
+		padding: 60px 0px;
+	}
+}
+
+@media (max-width: 320px) {
+	.testimonials__page {
+		padding: 40px 0px;
+	}
+}
+
+.testimonials__column {
+	display: flex;
+	justify-content: space-between;
+}
+
+@media (max-width: 375px) {
+	.testimonials__column {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+.testimonials__descr {
+	max-width: 100%;
+	width: 205px;
+	color: #FFF;
+}
+
+@media (max-width: 425px) {
+	.testimonials__descr {
+    max-width: 100%;
+    width: 180px;
+    color: #FFF;
+    margin: 0px 20px 0px 0px;
+	}
+}
+
+@media (max-width: 375px) {
+	.testimonials__descr {
+		text-align: center;
+    margin: 0px 0px 15px 0px;
+	}
+}
+
+.testimonials__descr a {
+	color: #FFF;
+}
+
+.testimonials__descr-title {
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 115%;
+	margin: 0px 0px 9px 0px;
+}
+
+.testimonials__descr-subtitle {
+	font-size: 24px;
+	line-height: 116%;
+	margin: 0px 0px 92px 0px;
+}
+
+@media (max-width: 375px) {
+	.testimonials__descr-subtitle {
+    margin: 0px 0px 40px 0px;
+	}
+}
+
+.testimonials__descr-procent {
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 114%;
+	margin: 0px 0px 1px 0px;
+}
+
+.testimonials__descr-procent-subtitle {
+	font-size: 28px;
+	line-height: 114%;
+	margin: 0px 0px 56px 0px;
+}
+
+@media (max-width: 375px) {
+	.testimonials__descr-procent-subtitle {
+    margin: 0px 0px 40px 0px;
+	}
+}
+
+.testimonials__descr-arrows {
+	font-size: 28px;
+	line-height: 114%;
+}
+
+.testimonials__text {
+	max-width: 100%;
+	width: 734px;
+	background-color: #FFF;
+	padding: 75px 45px 82px 59px;
+}
+
+@media (max-width: 768px) {
+	.testimonials__text {
+    width: 490px;
+    padding: 20px 20px 20px 20px;
+	}
+}
+
+.testimonials__text-title {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 115%;
+	margin: 0px 0px 17px 0px;
+}
+
+.testimonials__text-decsr {
+	font-size: 16px;
+	line-height: 181%;
+	margin: 0px 0px 54px 0px;
+}
+
+.testimonials__text-name {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 112%;
+}
