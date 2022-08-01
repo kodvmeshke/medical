@@ -670,6 +670,7 @@ margin: 0px 12px 0px 0px;
 
 .benefits__page {
 	position: relative;
+	margin: 0px 0px 130px 0px;
 }
 
 .benefits__row {
@@ -882,3 +883,115 @@ margin: 0px 12px 0px 0px;
 .benefits__image img {
 	max-width: 100%;
 }
+
+.services {
+	margin: 0px 0px 161px 0px;
+}
+
+.services__columns {
+	display: flex;
+}
+
+.columns__services {
+	max-width: 592px;
+	margin: 0px 102px 0px 0px;
+}
+
+.columns__services-title {
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 115%;
+	margin: 0px 0px 9px 0px;
+}
+
+.columns__services-subtitle {
+	font-size: 24px;
+	line-height: 116%;
+	color: #9B9B9B;
+	margin: 0px 0px 67px 0px;
+}
+
+.columns__services-item-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 0px 25px 0px;
+	border-bottom: 1px solid #979797;
+	margin: 0px 0px 32px 0px;
+}
+
+.columns__services-item-title {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 116%;
+	color: #0E77AF;
+}
+
+.columns__services-item-block {
+	display: flex;
+	margin: 0px 0px 42px 0px;
+}
+
+.columns__services-item-image {
+	margin: 0px 20px 0px 0px;
+}
+
+.columns__services-item-descr {
+	display: flex;
+	flex-direction: column;
+}
+
+.columns__services-item-text {
+	font-size: 16px;
+	line-height: 181%;
+	margin: 12px 0px 1px 0px;
+}
+
+.columns__services-item-link a {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 241%;
+	color: #7D7D7D;
+}
+
+.columns__security-title {
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 115%;
+	margin: 0px 0px 9px 0px;
+}
+
+.columns__security-subtitle {
+	font-size: 24px;
+	line-height: 116%;
+	color: #9B9B9B;
+	margin: 0px 0px 47px 0px;
+}
+
+.columns__security-image {
+	margin: 0px 0px 58px 0px;
+}
+
+.columns__security-text {
+	font-size: 16px;
+	line-height: 181%;
+	margin: 0px 0px 42px 0px;
+}
+
+.columns__security-btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 104px;
+	height: 35px;
+	background-color: #B4141B;
+}
+
+.columns__security-link {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 191%;
+	color: #FFF;
+	padding: 6px 6px 6px 10px;
+}
+
