@@ -1452,15 +1452,12 @@ margin: 0px 0px 26px 0px;
 	color: #FFF;
 }
 
-.about-footer {
-}
 .about-footer__page {
 	background-color: #4A4A4A;
 	color: #fff;
 	margin-top: -88px;
 }
-.about-footer__container {
-}
+
 .about-footer__wrapper {
 	display: flex;
 }
